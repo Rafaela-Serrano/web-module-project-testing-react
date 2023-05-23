@@ -3,8 +3,8 @@ import React from "react";
 import Display from "./components/Display";
 
 export default function App() {
-  const displayFunc = (data)=> {
-    console.log(data);
+  const displayFunc = (data) => {
+    console.log(data, "I'm data inside display");
   }
 
   return (
